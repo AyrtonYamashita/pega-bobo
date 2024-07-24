@@ -1,0 +1,23 @@
+*, *::after, *::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --ff-base: "Montserrat", sans-serif;
+  --fw-bold: 700;
+}
+
+html{
+  font: 400 1rem/1.25 var(--ff-base);
+}
+
+body{
+  background-color: #F1F1FF;
+}
+
+h1{
+  font: 700 2rem/1.25 var(--ff-base);
+  text-transform: uppercase;
+}

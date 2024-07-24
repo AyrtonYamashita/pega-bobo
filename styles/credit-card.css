@@ -1,0 +1,155 @@
+section.credit-card {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 6rem;
+  & .front {
+    position: relative;
+    display: flex;
+    content: "";
+    width: 20rem;
+    height: 12rem;
+    border-radius: 0.75rem;
+    background-color: #adadad;
+
+    & .number {
+      position: absolute;
+      text-align: center;
+      font: 700 1.2rem/1.25 var(--ff-base);
+      color: gray;
+      width: 15rem;
+      height: 1.5rem;
+      border-radius: .5rem;
+      background-color: #9e9e9e;
+      top: 50%;
+      left: 5%;
+    }
+
+    & .name {
+      position: absolute;
+      text-align: center;
+      font: 700 0.75rem/1.25 var(--ff-base);
+      color: gray;
+      width: 8rem;
+      height: 1rem;
+      border-radius: .5rem;
+      background-color: #9e9e9e;
+      bottom: 15%;
+      left: 5%;
+    }
+    & .val {
+      position: absolute;
+      text-align: center;
+      font: 700 0.75rem/1.25 var(--ff-base);
+      color: gray;
+      width: 6rem;
+      height: 1rem;
+      border-radius: .5rem;
+      background-color: #9e9e9e;
+      bottom: 15%;
+      left: 46%;
+    }
+
+    & .flag {
+      position: absolute;
+      content: "";
+      background-image: url(../assets/mc_symbol.svg);
+      background-repeat: no-repeat;
+      width: 3rem;
+      height: 2rem;
+      bottom: 12%;
+      left: 80%;
+    }
+
+    & .bank {
+      position: absolute;
+      content: "";
+      background-image: url(../assets/bank.svg);
+      background-size: cover;
+      width: 15rem;
+      height: 15rem;
+      bottom: 15%;
+      left: 40%;
+    }
+
+    & .chip {
+      position: absolute;
+      content: "";
+      background-color: #6e6e6e;
+      border-radius: 0.5rem;
+      width: 2.5rem;
+      height: 2rem;
+      top: 25%;
+      left: 5%;
+    }
+  }
+
+  & .back {
+    position: relative;
+    display: flex;
+    content: "";
+    width: 20rem;
+    height: 12rem;
+    border-radius: 0.75rem;
+    background-color: #adadad;
+
+    & .advert {
+      position: absolute;
+      font: 400 .55rem/1.25 var(--ff-base);
+      color: gray;
+      width: 20rem;
+      height: 1rem;
+      top: 2%;
+      left: 10%;
+    }
+
+    & .tag {
+      position: absolute;
+      text-align: center;
+      content: "";
+      color: gray;
+      width: 20rem;
+      height: 3rem;
+      background-color: #575757;
+      top: 15%;
+    }
+    & .cvc {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      padding-right: 1rem;
+      font: 700 0.75rem/1.25 var(--ff-base);
+      color: gray;
+      width: 15rem;
+      height: 2rem;
+      background-color: #9e9e9e;
+      top: 50%;
+      left: 15%;
+    }
+
+    & .flag {
+      position: absolute;
+      content: "";
+      background-image: url(../assets/mc_symbol.svg);
+      background-repeat: no-repeat;
+      filter: grayscale();
+      width: 3rem;
+      height: 2rem;
+      bottom: 7%;
+      left: 80%;
+    }
+
+    & .description {
+      position: absolute;
+      content: "";
+      font: 400 0.5rem/1.25 var(--ff-base);
+      color: #838383;
+      width: 15rem;
+      height: 3rem;
+      bottom: 1%;
+      left: 5%;
+    }
+
+  }
+}

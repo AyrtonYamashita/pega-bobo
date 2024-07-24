@@ -1,0 +1,16 @@
+section.main {
+  display: flex;
+  text-align: center;
+  padding-block: 2rem;
+  & header {
+    display: flex;
+    margin-inline: auto;
+
+    flex-direction: column;
+    gap: 2rem;
+    & p {
+      margin-inline: auto;
+      max-width: 40rem;
+    }
+  }
+}
