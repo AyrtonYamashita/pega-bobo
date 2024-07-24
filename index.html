@@ -50,7 +50,552 @@
         </div>
       </section>
       <section class="data">
-        
+        <fieldset>
+          <legend>
+            <img src="./assets/icons/credit-card.png" alt="" />Insira seus dados
+            aqui
+          </legend>
+          <form>
+            <div class="input-wrapper">
+              <label>Número do seu cartão:</label>
+              <div class="input-inner">
+                <input
+                  type="text"
+                  class="input"
+                  id="display_1"
+                  value="0"
+                  readonly
+                />
+                <input
+                  type="range"
+                  class="ipt-range"
+                  name="ncard"
+                  id="ncard"
+                  pattern="\d{4}"
+                  value="0"
+                  min="1000"
+                  max="9999"
+                  oninput="display_1.value=value"
+                  onchange="display_1.value=value"
+                />
+              </div>
+
+              <div class="input-inner">
+                <input
+                  type="text"
+                  class="input"
+                  id="display_2"
+                  value="0"
+                  readonly
+                />
+                <input
+                  type="range"
+                  class="ipt-range"
+                  name="ncard"
+                  id="ncard2"
+                  pattern="\d{4}"
+                  value="0"
+                  min="1000"
+                  max="9999"
+                  oninput="display_2.value=value"
+                  onchange="display_2.value=value"
+                />
+              </div>
+
+              <div class="input-inner">
+                <input
+                  type="text"
+                  class="input"
+                  id="display_3"
+                  value="0"
+                  readonly
+                />
+                <input
+                  type="range"
+                  class="ipt-range"
+                  name="ncard"
+                  id="ncard"
+                  pattern="\d{4}"
+                  value="0"
+                  min="1000"
+                  max="9999"
+                  oninput="display_3.value=value"
+                  onchange="display_3.value=value"
+                />
+              </div>
+
+              <div class="input-inner">
+                <input
+                  type="text"
+                  class="input"
+                  id="display_4"
+                  value="0"
+                  readonly
+                />
+                <input
+                  type="range"
+                  class="ipt-range"
+                  name="ncard"
+                  id="ncard"
+                  pattern="\d{4}"
+                  value="0"
+                  min="1000"
+                  max="9999"
+                  oninput="display_4.value=value"
+                  onchange="display_4.value=value"
+                />
+              </div>
+            </div>
+            <div class="input-wrapper">
+              <label>Qual seu nome: </label>
+              <select name="primeiro" class="ipt-select">
+                <option value="João">João</option>
+                <option value="Gabriel">Gabriel</option>
+                <option value="Lucas">Lucas</option>
+                <option value="Mateus">Mateus</option>
+                <option value="Pedro">Pedro</option>
+                <option value="Guilherme">Guilherme</option>
+                <option value="Gustavo">Gustavo</option>
+                <option value="Leonardo">Leonardo</option>
+                <option value="Rafael">Rafael</option>
+                <option value="Arthur">Arthur</option>
+                <option value="Miguel">Miguel</option>
+                <option value="Heitor">Heitor</option>
+                <option value="Enzo">Enzo</option>
+                <option value="Davi">Davi</option>
+                <option value="Samuel">Samuel</option>
+                <option value="Eduardo">Eduardo</option>
+                <option value="Bernardo">Bernardo</option>
+                <option value="Daniel">Daniel</option>
+                <option value="Felipe">Felipe</option>
+                <option value="Henrique">Henrique</option>
+                <option value="Vinícius">Vinícius</option>
+                <option value="Thiago">Thiago</option>
+                <option value="Francisco">Francisco</option>
+                <option value="Ricardo">Ricardo</option>
+                <option value="Alexandre">Alexandre</option>
+                <option value="Nicolas">Nicolas</option>
+                <option value="Antônio">Antônio</option>
+                <option value="Caio">Caio</option>
+                <option value="Roberto">Roberto</option>
+                <option value="Diego">Diego</option>
+                <option value="Bruno">Bruno</option>
+                <option value="Fernando">Fernando</option>
+                <option value="Carlos">Carlos</option>
+                <option value="André">André</option>
+                <option value="Augusto">Augusto</option>
+                <option value="Vitor">Vitor</option>
+                <option value="Murilo">Murilo</option>
+                <option value="Luís">Luís</option>
+                <option value="Otávio">Otávio</option>
+                <option value="Igor">Igor</option>
+                <option value="Sebastião">Sebastião</option>
+                <option value="Emanuel">Emanuel</option>
+                <option value="Emanuelly">Emanuelly</option>
+                <option value="Benício">Benício</option>
+                <option value="Bryan">Bryan</option>
+                <option value="Nathan">Nathan</option>
+                <option value="Thiago">Thiago</option>
+                <option value="João Victor">João Victor</option>
+                <option value="Yuri">Yuri</option>
+                <option value="Anderson">Anderson</option>
+                <option value="Maria">Maria</option>
+                <option value="Ana">Ana</option>
+                <option value="Júlia">Júlia</option>
+                <option value="Sofia">Sofia</option>
+                <option value="Alice">Alice</option>
+                <option value="Laura">Laura</option>
+                <option value="Isabela">Isabela</option>
+                <option value="Manuela">Manuela</option>
+                <option value="Giovanna">Giovanna</option>
+                <option value="Helena">Helena</option>
+                <option value="Beatriz">Beatriz</option>
+                <option value="Vitória">Vitória</option>
+                <option value="Mariana">Mariana</option>
+                <option value="Larissa">Larissa</option>
+                <option value="Letícia">Letícia</option>
+                <option value="Luísa">Luísa</option>
+                <option value="Rafaela">Rafaela</option>
+                <option value="Sarah">Sarah</option>
+                <option value="Yasmin">Yasmin</option>
+                <option value="Bianca">Bianca</option>
+                <option value="Isabel">Isabel</option>
+                <option value="Rebeca">Rebeca</option>
+                <option value="Valentina">Valentina</option>
+                <option value="Clara">Clara</option>
+                <option value="Elisa">Elisa</option>
+                <option value="Heloísa">Heloísa</option>
+                <option value="Ana Clara">Ana Clara</option>
+                <option value="Ana Júlia">Ana Júlia</option>
+                <option value="Camila">Camila</option>
+                <option value="Nicole">Nicole</option>
+                <option value="Cecília">Cecília</option>
+                <option value="Lívia">Lívia</option>
+                <option value="Gabriela">Gabriela</option>
+                <option value="Natália">Natália</option>
+                <option value="Fernanda">Fernanda</option>
+                <option value="Lavínia">Lavínia</option>
+                <option value="Aurora">Aurora</option>
+                <option value="Esther">Esther</option>
+                <option value="Melissa">Melissa</option>
+                <option value="Luana">Luana</option>
+                <option value="Vanessa">Vanessa</option>
+                <option value="Carolina">Carolina</option>
+                <option value="Marina">Marina</option>
+                <option value="Eduarda">Eduarda</option>
+                <option value="Lorena">Lorena</option>
+                <option value="Simone">Simone</option>
+                <option value="Michele">Michele</option>
+                <option value="Vitória">Vitória</option>
+                <option value="outro">outro</option>
+              </select>
+              <select name="segundo" class="ipt-select">
+                <option value="Silva">Silva</option>
+                <option value="Santos">Santos</option>
+                <option value="Oliveira">Oliveira</option>
+                <option value="Souza">Souza</option>
+                <option value="Rodrigues">Rodrigues</option>
+                <option value="Ferreira">Ferreira</option>
+                <option value="Almeida">Almeida</option>
+                <option value="Costa">Costa</option>
+                <option value="Carvalho">Carvalho</option>
+                <option value="Pereira">Pereira</option>
+                <option value="Lima">Lima</option>
+                <option value="Gomes">Gomes</option>
+                <option value="Martins">Martins</option>
+                <option value="Araújo">Araújo</option>
+                <option value="Barbosa">Barbosa</option>
+                <option value="Ribeiro">Ribeiro</option>
+                <option value="Cardoso">Cardoso</option>
+                <option value="Lopes">Lopes</option>
+                <option value="Soares">Soares</option>
+                <option value="Vieira">Vieira</option>
+                <option value="Santana">Santana</option>
+                <option value="Campos">Campos</option>
+                <option value="Monteiro">Monteiro</option>
+                <option value="Moura">Moura</option>
+                <option value="Teixeira">Teixeira</option>
+                <option value="Andrade">Andrade</option>
+                <option value="Leal">Leal</option>
+                <option value="Barros">Barros</option>
+                <option value="Dias">Dias</option>
+                <option value="Araújo">Araújo</option>
+                <option value="Correia">Correia</option>
+                <option value="Mendes">Mendes</option>
+                <option value="Nascimento">Nascimento</option>
+                <option value="Moreira">Moreira</option>
+                <option value="Ramos">Ramos</option>
+                <option value="Faria">Faria</option>
+                <option value="Reis">Reis</option>
+                <option value="Pinto">Pinto</option>
+                <option value="Siqueira">Siqueira</option>
+                <option value="Miranda">Miranda</option>
+                <option value="Cavalcante">Cavalcante</option>
+                <option value="Brito">Brito</option>
+                <option value="Neves">Neves</option>
+                <option value="Guimarães">Guimarães</option>
+                <option value="Machado">Machado</option>
+                <option value="Amaral">Amaral</option>
+                <option value="Freitas">Freitas</option>
+                <option value="Parente">Parente</option>
+                <option value="Pimentel">Pimentel</option>
+                <option value="Silva">Silva</option>
+                <option value="Santos">Santos</option>
+                <option value="Oliveira">Oliveira</option>
+                <option value="Souza">Souza</option>
+                <option value="Rodrigues">Rodrigues</option>
+                <option value="Ferreira">Ferreira</option>
+                <option value="Almeida">Almeida</option>
+                <option value="Costa">Costa</option>
+                <option value="Carvalho">Carvalho</option>
+                <option value="Pereira">Pereira</option>
+                <option value="Lima">Lima</option>
+                <option value="Gomes">Gomes</option>
+                <option value="Martins">Martins</option>
+                <option value="Araújo">Araújo</option>
+                <option value="Barbosa">Barbosa</option>
+                <option value="Ribeiro">Ribeiro</option>
+                <option value="Cardoso">Cardoso</option>
+                <option value="Lopes">Lopes</option>
+                <option value="Soares">Soares</option>
+                <option value="Vieira">Vieira</option>
+                <option value="Santana">Santana</option>
+                <option value="Campos">Campos</option>
+                <option value="Monteiro">Monteiro</option>
+                <option value="Moura">Moura</option>
+                <option value="Teixeira">Teixeira</option>
+                <option value="Andrade">Andrade</option>
+                <option value="Leal">Leal</option>
+                <option value="Barros">Barros</option>
+                <option value="Dias">Dias</option>
+                <option value="Araújo">Araújo</option>
+                <option value="Correia">Correia</option>
+                <option value="Mendes">Mendes</option>
+                <option value="Nascimento">Nascimento</option>
+                <option value="Moreira">Moreira</option>
+                <option value="Ramos">Ramos</option>
+                <option value="Faria">Faria</option>
+                <option value="Reis">Reis</option>
+                <option value="Pinto">Pinto</option>
+                <option value="Siqueira">Siqueira</option>
+                <option value="Miranda">Miranda</option>
+                <option value="Cavalcante">Cavalcante</option>
+                <option value="Brito">Brito</option>
+                <option value="Neves">Neves</option>
+                <option value="Guimarães">Guimarães</option>
+                <option value="Machado">Machado</option>
+                <option value="Amaral">Amaral</option>
+                <option value="Freitas">Freitas</option>
+                <option value="Parente">Parente</option>
+                <option value="Pimentel">Pimentel</option>
+              </select>
+              <select name="terceiro" class="ipt-select">
+                <option value="Silva">Silva</option>
+                <option value="Santos">Santos</option>
+                <option value="Oliveira">Oliveira</option>
+                <option value="Souza">Souza</option>
+                <option value="Rodrigues">Rodrigues</option>
+                <option value="Ferreira">Ferreira</option>
+                <option value="Almeida">Almeida</option>
+                <option value="Costa">Costa</option>
+                <option value="Carvalho">Carvalho</option>
+                <option value="Pereira">Pereira</option>
+                <option value="Lima">Lima</option>
+                <option value="Gomes">Gomes</option>
+                <option value="Martins">Martins</option>
+                <option value="Araújo">Araújo</option>
+                <option value="Barbosa">Barbosa</option>
+                <option value="Ribeiro">Ribeiro</option>
+                <option value="Cardoso">Cardoso</option>
+                <option value="Lopes">Lopes</option>
+                <option value="Soares">Soares</option>
+                <option value="Vieira">Vieira</option>
+                <option value="Santana">Santana</option>
+                <option value="Campos">Campos</option>
+                <option value="Monteiro">Monteiro</option>
+                <option value="Moura">Moura</option>
+                <option value="Teixeira">Teixeira</option>
+                <option value="Andrade">Andrade</option>
+                <option value="Leal">Leal</option>
+                <option value="Barros">Barros</option>
+                <option value="Dias">Dias</option>
+                <option value="Araújo">Araújo</option>
+                <option value="Correia">Correia</option>
+                <option value="Mendes">Mendes</option>
+                <option value="Nascimento">Nascimento</option>
+                <option value="Moreira">Moreira</option>
+                <option value="Ramos">Ramos</option>
+                <option value="Faria">Faria</option>
+                <option value="Reis">Reis</option>
+                <option value="Pinto">Pinto</option>
+                <option value="Siqueira">Siqueira</option>
+                <option value="Miranda">Miranda</option>
+                <option value="Cavalcante">Cavalcante</option>
+                <option value="Brito">Brito</option>
+                <option value="Neves">Neves</option>
+                <option value="Guimarães">Guimarães</option>
+                <option value="Machado">Machado</option>
+                <option value="Amaral">Amaral</option>
+                <option value="Freitas">Freitas</option>
+                <option value="Parente">Parente</option>
+                <option value="Pimentel">Pimentel</option>
+                <option value="Silva">Silva</option>
+                <option value="Santos">Santos</option>
+                <option value="Oliveira">Oliveira</option>
+                <option value="Souza">Souza</option>
+                <option value="Rodrigues">Rodrigues</option>
+                <option value="Ferreira">Ferreira</option>
+                <option value="Almeida">Almeida</option>
+                <option value="Costa">Costa</option>
+                <option value="Carvalho">Carvalho</option>
+                <option value="Pereira">Pereira</option>
+                <option value="Lima">Lima</option>
+                <option value="Gomes">Gomes</option>
+                <option value="Martins">Martins</option>
+                <option value="Araújo">Araújo</option>
+                <option value="Barbosa">Barbosa</option>
+                <option value="Ribeiro">Ribeiro</option>
+                <option value="Cardoso">Cardoso</option>
+                <option value="Lopes">Lopes</option>
+                <option value="Soares">Soares</option>
+                <option value="Vieira">Vieira</option>
+                <option value="Santana">Santana</option>
+                <option value="Campos">Campos</option>
+                <option value="Monteiro">Monteiro</option>
+                <option value="Moura">Moura</option>
+                <option value="Teixeira">Teixeira</option>
+                <option value="Andrade">Andrade</option>
+                <option value="Leal">Leal</option>
+                <option value="Barros">Barros</option>
+                <option value="Dias">Dias</option>
+                <option value="Araújo">Araújo</option>
+                <option value="Correia">Correia</option>
+                <option value="Mendes">Mendes</option>
+                <option value="Nascimento">Nascimento</option>
+                <option value="Moreira">Moreira</option>
+                <option value="Ramos">Ramos</option>
+                <option value="Faria">Faria</option>
+                <option value="Reis">Reis</option>
+                <option value="Pinto">Pinto</option>
+                <option value="Siqueira">Siqueira</option>
+                <option value="Miranda">Miranda</option>
+                <option value="Cavalcante">Cavalcante</option>
+                <option value="Brito">Brito</option>
+                <option value="Neves">Neves</option>
+                <option value="Guimarães">Guimarães</option>
+                <option value="Machado">Machado</option>
+                <option value="Amaral">Amaral</option>
+                <option value="Freitas">Freitas</option>
+                <option value="Parente">Parente</option>
+                <option value="Pimentel">Pimentel</option>
+              </select>
+              <select name="terceiro" class="ipt-select">
+                <option value="Silva">Silva</option>
+                <option value="Santos">Santos</option>
+                <option value="Oliveira">Oliveira</option>
+                <option value="Souza">Souza</option>
+                <option value="Rodrigues">Rodrigues</option>
+                <option value="Ferreira">Ferreira</option>
+                <option value="Almeida">Almeida</option>
+                <option value="Costa">Costa</option>
+                <option value="Carvalho">Carvalho</option>
+                <option value="Pereira">Pereira</option>
+                <option value="Lima">Lima</option>
+                <option value="Gomes">Gomes</option>
+                <option value="Martins">Martins</option>
+                <option value="Araújo">Araújo</option>
+                <option value="Barbosa">Barbosa</option>
+                <option value="Ribeiro">Ribeiro</option>
+                <option value="Cardoso">Cardoso</option>
+                <option value="Lopes">Lopes</option>
+                <option value="Soares">Soares</option>
+                <option value="Vieira">Vieira</option>
+                <option value="Santana">Santana</option>
+                <option value="Campos">Campos</option>
+                <option value="Monteiro">Monteiro</option>
+                <option value="Moura">Moura</option>
+                <option value="Teixeira">Teixeira</option>
+                <option value="Andrade">Andrade</option>
+                <option value="Leal">Leal</option>
+                <option value="Barros">Barros</option>
+                <option value="Dias">Dias</option>
+                <option value="Araújo">Araújo</option>
+                <option value="Correia">Correia</option>
+                <option value="Mendes">Mendes</option>
+                <option value="Nascimento">Nascimento</option>
+                <option value="Moreira">Moreira</option>
+                <option value="Ramos">Ramos</option>
+                <option value="Faria">Faria</option>
+                <option value="Reis">Reis</option>
+                <option value="Pinto">Pinto</option>
+                <option value="Siqueira">Siqueira</option>
+                <option value="Miranda">Miranda</option>
+                <option value="Cavalcante">Cavalcante</option>
+                <option value="Brito">Brito</option>
+                <option value="Neves">Neves</option>
+                <option value="Guimarães">Guimarães</option>
+                <option value="Machado">Machado</option>
+                <option value="Amaral">Amaral</option>
+                <option value="Freitas">Freitas</option>
+                <option value="Parente">Parente</option>
+                <option value="Pimentel">Pimentel</option>
+                <option value="Silva">Silva</option>
+                <option value="Santos">Santos</option>
+                <option value="Oliveira">Oliveira</option>
+                <option value="Souza">Souza</option>
+                <option value="Rodrigues">Rodrigues</option>
+                <option value="Ferreira">Ferreira</option>
+                <option value="Almeida">Almeida</option>
+                <option value="Costa">Costa</option>
+                <option value="Carvalho">Carvalho</option>
+                <option value="Pereira">Pereira</option>
+                <option value="Lima">Lima</option>
+                <option value="Gomes">Gomes</option>
+                <option value="Martins">Martins</option>
+                <option value="Araújo">Araújo</option>
+                <option value="Barbosa">Barbosa</option>
+                <option value="Ribeiro">Ribeiro</option>
+                <option value="Cardoso">Cardoso</option>
+                <option value="Lopes">Lopes</option>
+                <option value="Soares">Soares</option>
+                <option value="Vieira">Vieira</option>
+                <option value="Santana">Santana</option>
+                <option value="Campos">Campos</option>
+                <option value="Monteiro">Monteiro</option>
+                <option value="Moura">Moura</option>
+                <option value="Teixeira">Teixeira</option>
+                <option value="Andrade">Andrade</option>
+                <option value="Leal">Leal</option>
+                <option value="Barros">Barros</option>
+                <option value="Dias">Dias</option>
+                <option value="Araújo">Araújo</option>
+                <option value="Correia">Correia</option>
+                <option value="Mendes">Mendes</option>
+                <option value="Nascimento">Nascimento</option>
+                <option value="Moreira">Moreira</option>
+                <option value="Ramos">Ramos</option>
+                <option value="Faria">Faria</option>
+                <option value="Reis">Reis</option>
+                <option value="Pinto">Pinto</option>
+                <option value="Siqueira">Siqueira</option>
+                <option value="Miranda">Miranda</option>
+                <option value="Cavalcante">Cavalcante</option>
+                <option value="Brito">Brito</option>
+                <option value="Neves">Neves</option>
+                <option value="Guimarães">Guimarães</option>
+                <option value="Machado">Machado</option>
+                <option value="Amaral">Amaral</option>
+                <option value="Freitas">Freitas</option>
+                <option value="Parente">Parente</option>
+                <option value="Pimentel">Pimentel</option>
+              </select>
+            </div>
+            <div class="input-wrapper">
+              <label>Data de validade</label>
+              <input type="date" name="" id="" class="ipt-date">
+            </div>
+            <div class="input-wrapper">
+              <label>CVV</label>
+              <select name="primeiro" id="" class="ipt-select">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="1">4</option>
+                <option value="1">5</option>
+                <option value="1">6</option>
+                <option value="1">7</option>
+                <option value="1">8</option>
+                <option value="1">9</option>
+                <option value="1">0</option>
+              </select>
+              <select name="segundo" id="" class="ipt-select">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="1">4</option>
+                <option value="1">5</option>
+                <option value="1">6</option>
+                <option value="1">7</option>
+                <option value="1">8</option>
+                <option value="1">9</option>
+                <option value="1">0</option>
+              </select>
+              <select name="terceiro" id="" class="ipt-select">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="1">4</option>
+                <option value="1">5</option>
+                <option value="1">6</option>
+                <option value="1">7</option>
+                <option value="1">8</option>
+                <option value="1">9</option>
+                <option value="1">0</option>
+              </select>
+            </div>
+            <input type="submit" class="input">
+          </form>
+        </fieldset>
       </section>
     </div>
   </body>
